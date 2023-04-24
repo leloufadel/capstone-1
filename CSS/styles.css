@@ -1,0 +1,147 @@
+:root {
+  --ff-cocogoose: 'COCOGOOSE', sans-serif;
+  --ff-lato: 'Lato', sans-serif;
+  --color-black: #272a31;
+  --color-red: #ec5242;
+  --color-lightgrey: #d3d3d3;
+  --color-darkgrey: #5e5e5e;
+  --color-whitesmoke: #f7f7f7;
+  --color-white: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--ff-lato);
+}
+
+body {
+  background: var(--color-whitesmoke);
+}
+
+header {
+  height: 6.5rem;
+}
+
+.menu {
+  display: block;
+  top: 5%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 30px;
+}
+
+.menu::before,
+.menu::after,
+.menu div {
+  background: var(--color-darkgrey);
+  content: "";
+  display: block;
+  height: 4px;
+  border-radius: 1px;
+  margin: 7px 0;
+  transition: 0.5s;
+}
+
+.first {
+  display: none;
+  height: 30%;
+  justify-content: flex-end;
+  padding-right: 168px;
+  align-items: center;
+  background: var(--color-black);
+}
+
+li,
+ul {
+  display: inline;
+  list-style-type: none;
+  padding: 0 15px;
+  color: var(--color-white);
+  cursor: pointer;
+  text-align: center;
+}
+
+li:hover {
+  color: var(--color-red);
+}
+
+a {
+  text-decoration: none;
+}
+
+.fa {
+  color: var(--color-white);
+  position: absolute;
+  height: 10%;
+}
+
+.fa:hover {
+  top: 0;
+  color: var(--color-red);
+  transition: 0.5s;
+}
+
+select {
+  color: var(--color-white);
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+select:hover {
+  color: var(--color-red);
+  transition: 0.5s;
+}
+
+.second {
+  display: none;
+  justify-content: space-around;
+  align-items: center;
+  height: 80%;
+  background: var(--color-white);
+}
+
+#Home {
+  color: var(--color-red);
+}
+
+.logo {
+  width: 100px;
+  height: 30px;
+  background: var(--color-white);
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.second a {
+  color: var(--color-black);
+  text-align: center;
+}
+
+a:hover {
+  color: var(--color-red);
+}
+
+/* Desktop Version : */
+@media only screen and (min-width: 768px) {
+  .first {
+    display: flex;
+  }
+
+  .second {
+    display: flex;
+  }
+
+  .menu::before,
+  .menu::after,
+  .menu div {
+    display: none;
+  }
+
+  .logo {
+    height: auto;
+  }
+}
