@@ -3,13 +3,12 @@
   --ff-lato: 'Lato', sans-serif;
   --color-black: #272a31;
   --color-red: #ec5242;
-  --color-aqua: #00FFFF;
+  --color-aqua: #0ff;
   --color-lightgrey: #d3d3d3;
   --color-darkgrey: #5e5e5e;
   --color-whitesmoke: #f7f7f7;
   --color-white: #fff;
-  --color-red1:#110202;
- 
+  --color-red1: #110202;
 }
 
 * {
@@ -141,6 +140,7 @@ a:hover {
   color: var(--color-red);
   text-align: center;
 }
+
 main {
   display: flex;
   flex-direction: column;
@@ -171,6 +171,7 @@ main {
 .title:hover {
   background-image: none;
 }
+
 /* Desktop Version : */
 @media only screen and (min-width: 768px) {
   .first-nav {
@@ -186,6 +187,7 @@ main {
   .menu div {
     display: none;
   }
+
   main {
     width: 80%;
     margin: 20px 100px;
