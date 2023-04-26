@@ -8,29 +8,66 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  width: 80%;
+  width: 100%;
   padding: 80px 1.9375rem;
 }
 
-.slogan {
-  font-size: 1rem;
-  color: var(--color-red);
-  text-align: center;
+#hero-1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-image: url(../assets/hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  padding: 25px 9%;
 }
 
-.title {
-  font-family: var(--ff-cocogoose);
+.description-1{
+  width: 59%;
+  height: 95%;
+  background-color: var(--color-white);
+  border: 2px solid var(--color-lightgrey);
+  font-weight: 400;
+  text-align: justify;
+   padding: 8px 79px; 
+  color: #5e5e5e;
+  
+}
+
+.slogan-1{
+  font-size: 1.1rem;
   color: var(--color-red);
-  font-size: 2.5rem;
-  font-weight: 500;
-  text-align: center;
-  line-height: 3.25rem;
+  margin-bottom: 2rem;
+}
+
+.title-1{
+  font-family: var(--ff-cocogoose);
+  background-image: url(../Assets/fintech-texture.jpg);
+  background-repeat: repeat;
+  -webkit-font-smoothing: antialiased;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 0.5rem;
+  font-size: 2.8rem;
+  text-align: left;
+  line-height: 1.9rem;
   width: max-content;
   height: max-content;
   cursor: pointer;
   transition: all 0.25s ease-in-out;
-}
+  font-weight: bold;
+  text-transform: uppercase; 
 
-.title:hover {
-  background-image: none;
+}
+.title-1:hover {
+  background-color: var(--color-red);
+  background-image: none;  
+  transition: all 0.25s ease-in-out;
 }
