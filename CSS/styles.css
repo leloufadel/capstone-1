@@ -47,6 +47,20 @@ header {
   transition: 0.5s;
 }
 
+li,
+ul {
+  display: inline;
+  list-style-type: none;
+  padding: 0 15px;
+  color: var(--color-white);
+  cursor: pointer;
+  text-align: center;
+}
+
+li:hover {
+  color: var(--color-aqua);
+}
+
 /* Humberger CSS */
 .humberger {
   display: flex;
@@ -92,20 +106,6 @@ header {
   padding-right: 168px;
   align-items: center;
   background: var(--color-black);
-}
-
-li,
-ul {
-  display: inline;
-  list-style-type: none;
-  padding: 0 15px;
-  color: var(--color-white);
-  cursor: pointer;
-  text-align: center;
-}
-
-li:hover {
-  color: var(--color-aqua);
 }
 
 a {
@@ -179,13 +179,10 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-main {
-}
-
 #hero {
   display: flex;
   flex-direction: column;
-  align-items: start; 
+  align-items: start;
   gap: 1rem;
   background-image: url(../assets/hero-bg.png);
   background-size: cover;
@@ -205,7 +202,7 @@ main {
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
 }
 
 #program h3 {
@@ -223,7 +220,7 @@ main {
   border: var(--color-red) 2px solid;
   border-radius: 15px;
   width: 15%;
-  margin: .8% 0;
+  margin: 0.8% 0;
 }
 
 .boxes-row {
@@ -239,7 +236,7 @@ main {
   flex-direction: column;
   align-items: center;
   padding: 1rem 0;
-  gap: 0; 
+  gap: 0;
   width: 99%;
   height: 200px;
   background-color: #a8a8a815;
@@ -274,7 +271,7 @@ main {
   padding-bottom: 40px;
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
 }
 
@@ -282,7 +279,7 @@ main {
   border: var(--color-red) 2px solid;
   border-radius: 15px;
   width: 15%;
-  margin: .8% 0;
+  margin: 0.8% 0;
 }
 
 .speakers-grid {
@@ -293,10 +290,10 @@ main {
 }
 
 .speaker-separator {
-  border: #555555 1px solid;
+  border: #555 1px solid;
   border-radius: 15px;
   width: 15%;
-  margin: .8% 0;
+  margin: 0.8% 0;
 }
 
 .speaker {
@@ -330,12 +327,12 @@ main {
   cursor: pointer;
   transition: all 0.25s ease-in-out;
   font-weight: bold;
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
 
 .title:hover {
   background-color: var(--color-red);
-  background-image: none;  
+  background-image: none;
   transition: all 0.25s ease-in-out;
 }
 
@@ -356,13 +353,13 @@ main {
 .date {
   font-size: 2rem;
   font-weight: bold;
-  color: #555555;
+  color: #555;
 }
 
 .place {
   font-size: 1rem;
   font-weight: bold;
-  color: #555555;
+  color: #555;
 }
 
 .logos {
@@ -405,14 +402,17 @@ main {
     height: auto;
   }
 }
-.partners-section{
+
+.partners-section {
   background: var(--color-darkgrey);
 }
-.partners{
+
+.partners {
   display: flex;
   align-items: center;
   gap: 1%;
 }
+
 .section-title {
   display: flex;
   flex-direction: column;
@@ -423,11 +423,13 @@ main {
   text-align: center;
   color: white;
 }
+
 .section-title h2 {
-margin-top: 2%;
-font-weight: bold;
-font-size: 2rem;
+  margin-top: 2%;
+  font-weight: bold;
+  font-size: 2rem;
 }
+
 .bottom-title {
   width: 7.5rem;
   height: 0.29rem;
@@ -435,23 +437,26 @@ font-size: 2rem;
   background-color: var(--color-red);
   margin-top: 10px;
 }
+
 .partners img {
   width: 15%;
   height: 15%;
 }
-.foot-1{
+
+.foot-1 {
   display: flex;
   justify-content: space-evenly;
 }
+
 .foot-1 p {
-color: var(--color-darkgrey);
-margin: 5%;
+  color: var(--color-darkgrey);
+  margin: 5%;
 }
-.foot-1 img{
-  width:20%;
+
+.foot-1 img {
+  width: 20%;
   height: 20%;
   margin: 5px;
-
 }
 
 /* Mobile Version : */
@@ -479,7 +484,7 @@ margin: 5%;
     text-align: justify;
     padding: 8px 20px;
     color: #5e5e5e;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
   .slogan {
@@ -503,12 +508,12 @@ margin: 5%;
     cursor: pointer;
     transition: all 0.25s ease-in-out;
     font-weight: bold;
-    text-transform: uppercase; 
+    text-transform: uppercase;
   }
-  
+
   .title:hover {
     background-color: var(--color-red);
-    background-image: none;  
+    background-image: none;
     transition: all 0.25s ease-in-out;
   }
 
@@ -521,33 +526,34 @@ margin: 5%;
     text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
   }
-  
+
   #program h3 {
     color: white;
   }
-  
+
   #program hr {
-    display: none;  
+    display: none;
   }
+
   .boxes-row {
     margin-top: 5%;
-    display: block; 
+    display: block;
     width: 80%;
     align-content: center;
   }
-  
+
   .program-item {
     display: block;
     align-items: center;
-    padding: 1rem 0; 
+    padding: 1rem 0;
     margin-bottom: 2%;
     width: 100%;
     background-color: #a8a8a815;
     transition: all 0.25s ease-in-out;
   }
-  
+
   .program-item:hover {
     border: white 1px solid;
   }
@@ -558,59 +564,56 @@ margin: 5%;
     padding-bottom: 40px;
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
   }
-  
+
   .section-separator {
     border: var(--color-red) 2px solid;
     border-radius: 15px;
     width: 15%;
-    margin: .8% 0;
+    margin: 0.8% 0;
   }
-  
+
   .speakers-grid {
     margin-top: 5%;
     display: block;
     align-content: center;
   }
-  
+
   .speaker-separator {
-    border: #555555 1px solid;
+    border: #555 1px solid;
     border-radius: 15px;
     width: 15%;
-    margin: .8% 0;
+    margin: 0.8% 0;
   }
-  
+
   .speaker {
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
     gap: 2%;
   }
-  
+
   .speaker-name {
     font-size: 1rem;
   }
-  
+
   .speaker-title {
-    font-size: .8rem;
+    font-size: 0.8rem;
     color: var(--color-red);
   }
-  
+
   .speaker-bio {
-    font-size: .8rem;
-   }
-  
+    font-size: 0.8rem;
+  }
+
   .speaker-img {
     margin-right: 15px;
   }
-  
+
   .speaker-img img {
     width: 80px;
     height: 80px;
   }
-  
-
-
 }
