@@ -178,7 +178,6 @@ a:hover {
   color: var(--color-red);
   margin-bottom: 2rem;
 }
-
 #hero {
   display: flex;
   flex-direction: column;
