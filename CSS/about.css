@@ -194,6 +194,7 @@ ul {
   background-image: url(../Assets/ConferenceSeamless-1.jpg);
   background-size: cover;
 }
+
 /* Mobile Version : */
 @media only screen and (max-width: 768px) {
   .description-1 {
@@ -202,6 +203,7 @@ ul {
     background-color: white;
     border: 1px solid #d3d3d3;
   }
+
   .logodegn {
     width: 100%;
   }

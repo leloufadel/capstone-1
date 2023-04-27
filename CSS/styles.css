@@ -492,9 +492,11 @@ a:hover {
   height: 20%;
   margin: 5px;
 }
-.mobile-footer{
+
+.mobile-footer {
   display: none;
 }
+
 /* Mobile Version : */
 @media only screen and (max-width: 768px) {
   header {
@@ -646,11 +648,13 @@ a:hover {
     height: 100px;
     padding-right: 10px;
   }
-  .mobile-footer{
+
+  .mobile-footer {
     display: block;
     float: right;
     color: white;
   }
+
   /* .speaker-img img {
     width: 50px;
     height: 60px;
@@ -661,24 +665,23 @@ a:hover {
     padding: 10px 100px;
     border: none;
     background-color: white;
-    color:var(--color-darkgrey);
+    color: var(--color-darkgrey);
     font-size: 0.6em;
     font-weight: bold;
     text-align: center;
     position: relative;
   }
-  
+
   .see-more-btn::after {
-    content: "\f078";
-    font-family: FontAwesome;
+    content: '\f078';
+    font-family: 'FontAwesome', sans-serif;
     display: inline-block;
     margin-left: 10px;
     color: var(--color-red);
     transform: rotate(90deg);
   }
-  
+
   .see-more-btn:hover::before {
     transform: rotate(270deg);
   }
-  
 }
