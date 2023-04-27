@@ -609,7 +609,6 @@ a:hover {
     margin-top: 5%;
     display: block;
     align-content: center;
-    
   }
 
   .speaker-separator {
@@ -624,7 +623,6 @@ a:hover {
     display: flex;
     justify-content: space-between;
     gap: 18%;
-  
   }
 
   .speaker-name {
