@@ -133,6 +133,7 @@ main {
 .logo-seamless img {
   padding: 10px 10rem;
 }
+
 .previous-event {
   text-align: center;
   padding: 10px;
@@ -141,16 +142,16 @@ main {
 }
 
 .previous-event p {
-  text-align: center; 
+  text-align: center;
   color: var(--color-black);
   font-size: 1.5rem;
   opacity: 1;
   max-width: 910px;
-  padding: 30px; 
+  padding: 30px;
 }
+
 .past-events {
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   gap: 1rem;
 }
@@ -167,6 +168,7 @@ ul {
   align-items: center;
   width: 75vw;
   height: 35vw;
+
   /* box-shadow: inset -100vw -100vh #704b4780; */
   background-position: center;
   background-repeat: no-repeat;
@@ -182,6 +184,7 @@ ul {
   position: absolute;
   text-align: center;
   font-size: 2rem;
+
   /* color: var(--color-white); */
 }
 
@@ -193,4 +196,15 @@ ul {
 .past-events li:last-child {
   background-image: url(../Assets/ConferenceSeamless-1.jpg);
   background-size: cover;
+}
+
+/* Mobile Version : */
+@media only screen and (max-width: 768px) {
+  .description-1 {
+    width: 100%;
+  }
+
+  .logodegn {
+    width: 100%;
+  }
 }

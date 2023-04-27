@@ -49,7 +49,7 @@ Use images and backgrounds to enhance the look of the website.
 
 ### 1- Html
 ### 2- CSS
-### 3- Linters
+### 3- Javascript
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -110,7 +110,7 @@ Run This Command:
 
 ```sh
   cd my-folder
-  git clone https://github.com/leloufadel/Portfolio
+  git clone https://github.com/leloufadel/capstone-1
 ```
 
 
@@ -137,7 +137,7 @@ To run the project, execute the following command:
 
 ### Deployment
 
-> [Click here to navigate](https://leloufadel.github.io/Portfolio/).
+> [Click here to navigate](https://leloufadel.github.io/capstone-1/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,6 +162,8 @@ To run the project, execute the following command:
 - Use media queries
 - Use Grid and flexbox
 - Add  Responsiveness
+- use Animation 
+- use popup window
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
