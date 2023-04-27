@@ -183,8 +183,6 @@ ul {
   position: absolute;
   text-align: center;
   font-size: 2rem;
-
-  /* color: var(--color-white); */
 }
 
 .previous-event li:first-child {
@@ -196,9 +194,6 @@ ul {
   background-image: url(../Assets/ConferenceSeamless-1.jpg);
   background-size: cover;
 }
-
-
-
 /* Mobile Version : */
 @media only screen and (max-width: 768px) {
   .description-1 {
