@@ -372,6 +372,10 @@ a:hover {
 .logos img {
   width: 100%;
 }
+.Prog-H2 {
+  color: white;
+ 
+}
 
 /* Desktop Version : */
 @media only screen and (min-width: 768px) {
@@ -443,6 +447,22 @@ a:hover {
   height: 15%;
 }
 
+.foot-about {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #272A31;
+}
+
+.foot-about p {
+  color: var(--color-darkgrey);
+  margin: 5%;
+}
+
+.foot-about img {
+  width: 20%;
+  height: 20%;
+  margin: 5px;
+}
 .foot-1 {
   display: flex;
   justify-content: space-evenly;
@@ -529,9 +549,6 @@ a:hover {
     align-items: center;
   }
 
-  #program h3 {
-    color: white;
-  }
 
   #program hr {
     display: none;

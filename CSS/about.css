@@ -160,27 +160,26 @@ ul {
   list-style-type: none;
 }
 
-.past-events li {
+.previous-event li {
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 75vw;
+  width: 70vw;
   height: 35vw;
-
-  /* box-shadow: inset -100vw -100vh #704b4780; */
+  box-shadow: inset -100vw -100vh #ec534280;
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
   transition: box-shadow 0.45s, transform 0.45s;
 }
 
-.past-events li:hover {
+.previous-event li:hover {
   transform: scale(0.6);
 }
 
-.past-events li h3 {
+.previous-event li h3 {
   position: absolute;
   text-align: center;
   font-size: 2rem;
@@ -188,23 +187,37 @@ ul {
   /* color: var(--color-white); */
 }
 
-.past-events li:first-child {
+.previous-event li:first-child {
   background-image: url(../Assets/ConferenceSeamless.jpg);
   background-size: cover;
 }
 
-.past-events li:last-child {
+
+.previous-event li:last-child {
   background-image: url(../Assets/ConferenceSeamless-1.jpg);
   background-size: cover;
 }
+
+
 
 /* Mobile Version : */
 @media only screen and (max-width: 768px) {
   .description-1 {
     width: 100%;
-  }
+    padding: 10px 10px;
+    background-color: white;
+    border : 1px solid #d3d3d3;
+
+  } 
 
   .logodegn {
     width: 100%;
   }
+  
+.past-events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
 }

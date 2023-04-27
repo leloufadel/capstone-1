@@ -40,9 +40,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Protfolio Project <a name="about-project"></a>
+# 📖 Capstone Project <a name="about-project"></a>
 
-My First Project at Microverse with Html and CSS to Learn git, github and github Flow, To Build a personal portfolio site and to
+My First capstone Project at Microverse with Html, CSS and javascript to Learn git, github and github Flow, To Build a conference website site and to
 Use images and backgrounds to enhance the look of the website.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -78,7 +78,7 @@ Use images and backgrounds to enhance the look of the website.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> [Click here to navigate](https://leloufadel.github.io/Portfolio/).
+> [Click here to navigate]((https://leloufadel.github.io/capstone-1/)).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
