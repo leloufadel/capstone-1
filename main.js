@@ -94,7 +94,6 @@ const speakers = [
   },
 ];
 
-
 function randomIntFromInterval(min, max) { // min and max included
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
@@ -103,7 +102,7 @@ const speakersContainer = document.querySelector('.speakers-grid');
 const seeMoreBtn = document.querySelector('.see-more-btn');
 
 function generateSpeakers(count) {
-  for (let i = 1; i <= count; i++) {
+  for (let i = 1; i <= count; i += 1) {
     let rndInt = randomIntFromInterval(0, 11);
     while (chosenSpeaker.includes(rndInt)) {
       rndInt = randomIntFromInterval(0, 11);
@@ -136,15 +135,10 @@ function showMoreSpeakers() {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-  // Generate initial 6 speakers for desktop version
   if (window.innerWidth > 768) {
     generateSpeakers(6);
-  }
-  // Generate initial 2 speakers for mobile version
-  else {
+  } else {
     generateSpeakers(2);
   }
-
-  // Add event listener to see more button
   seeMoreBtn.addEventListener('click', showMoreSpeakers);
 });
