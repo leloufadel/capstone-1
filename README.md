@@ -40,16 +40,16 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Protfolio Project <a name="about-project"></a>
+# 📖 Capstone Project <a name="about-project"></a>
 
-My First Project at Microverse with Html and CSS to Learn git, github and github Flow, To Build a personal portfolio site and to
+My First capstone Project at Microverse with Html, CSS and javascript to Learn git, github and github Flow, To Build a conference website site and to
 Use images and backgrounds to enhance the look of the website.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### 1- Html
 ### 2- CSS
-### 3- Linters
+### 3- Javascript
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -78,7 +78,7 @@ Use images and backgrounds to enhance the look of the website.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> [Click here to navigate](https://leloufadel.github.io/Portfolio/).
+> [Click here to navigate]((https://leloufadel.github.io/capstone-1/)).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,7 +110,7 @@ Run This Command:
 
 ```sh
   cd my-folder
-  git clone https://github.com/leloufadel/Portfolio
+  git clone https://github.com/leloufadel/capstone-1
 ```
 
 
@@ -137,7 +137,7 @@ To run the project, execute the following command:
 
 ### Deployment
 
-> [Click here to navigate](https://leloufadel.github.io/Portfolio/).
+> [Click here to navigate](https://leloufadel.github.io/capstone-1/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,6 +162,8 @@ To run the project, execute the following command:
 - Use media queries
 - Use Grid and flexbox
 - Add  Responsiveness
+- use Animation 
+- use popup window
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -188,14 +190,28 @@ If you like this project Leave A Star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse.
+I would like to thank Microverse and my coding partners, and also give credit to Cindy Shin, the original author of the design.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **How to make it mobile friendly?**
+
+  - Put a viewport tag in the header
+
+- **How to design the site?**
+
+  - Draw a mockup before start to code
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!--Project OUTLINE-->
 <p> Project outline: Loom record link  <a href="https://www.loom.com/share/b2d5d3c82e3147148b1d4ee5347eb408">click here
  </p>
 <!-- LICENSE -->
-
 
 ## 📝 License <a name="license"></a>
 This project is [MIT](https://choosealicense.com/licenses/mit/) licensed .
