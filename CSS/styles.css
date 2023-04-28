@@ -684,4 +684,12 @@ a:hover {
   .see-more-btn:hover::before {
     transform: rotate(270deg);
   }
+
+  .partners-section {
+    display: none;
+  }
+
+  .foot-1 {
+    display: none;
+  }
 }

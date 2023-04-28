@@ -132,7 +132,6 @@ main {
 
 .logo-seamless img {
   padding: 10px 10rem;
- 
 }
 
 .previous-event {
@@ -190,16 +189,13 @@ ul {
 .previous-event li:first-child {
   background-image: url(../Assets/ConferenceSeamless.jpg);
   background-size: cover;
-  width:20%;
- 
-
+  width: 20%;
 }
 
 .previous-event li:last-child {
   background-image: url(../Assets/ConferenceSeamless-1.jpg);
   background-size: cover;
-  width:20%;
-  
+  width: 20%;
 }
 
 /* Mobile Version : */
