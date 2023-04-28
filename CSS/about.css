@@ -132,6 +132,7 @@ main {
 
 .logo-seamless img {
   padding: 10px 10rem;
+ 
 }
 
 .previous-event {
@@ -153,6 +154,7 @@ main {
 .past-events {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 1rem;
 }
 
@@ -166,8 +168,8 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 65vw;
-  height: 25vw;
+  width: 30vw;
+  height: 15vw;
   box-shadow: inset -100vw -100vh #ec534280;
   background-position: center;
   background-repeat: no-repeat;
@@ -188,11 +190,16 @@ ul {
 .previous-event li:first-child {
   background-image: url(../Assets/ConferenceSeamless.jpg);
   background-size: cover;
+  width:20%;
+ 
+
 }
 
 .previous-event li:last-child {
   background-image: url(../Assets/ConferenceSeamless-1.jpg);
   background-size: cover;
+  width:20%;
+  
 }
 
 /* Mobile Version : */

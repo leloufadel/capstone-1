@@ -190,14 +190,28 @@ If you like this project Leave A Star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse.
+I would like to thank Microverse and my coding partners, and also give credit to Cindy Shin, the original author of the design.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **How to make it mobile friendly?**
+
+  - Put a viewport tag in the header
+
+- **How to design the site?**
+
+  - Draw a mockup before start to code
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!--Project OUTLINE-->
 <p> Project outline: Loom record link  <a href="https://www.loom.com/share/b2d5d3c82e3147148b1d4ee5347eb408">click here
  </p>
 <!-- LICENSE -->
-
 
 ## 📝 License <a name="license"></a>
 This project is [MIT](https://choosealicense.com/licenses/mit/) licensed .
