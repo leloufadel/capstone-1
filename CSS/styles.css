@@ -61,7 +61,6 @@ li:hover {
   color: var(--color-aqua);
 }
 
-/* Humberger CSS */
 .humberger {
   display: flex;
   flex-direction: row;
