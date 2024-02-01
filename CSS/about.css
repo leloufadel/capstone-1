@@ -5,7 +5,6 @@ main {
   justify-content: center;
   gap: 1rem;
 
-  /* background-image: url(../assets/aboutbg.webp); */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
