@@ -25,6 +25,14 @@ body {
 header {
   height: 6.5rem;
 }
+.bg-img {
+ width:100%;
+height: auto;
+top:0;
+left:0;
+position: absolute;
+z-index: -1;   
+}
 
 .menu {
   display: block;
