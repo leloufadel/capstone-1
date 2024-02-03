@@ -1,0 +1,20 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+  }
+  nav {
+height: 80px;
+background-color: rgb(20, 20, 20);
+color:rgb(220, 220, 220);
+padding: 0 2rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: sticky; 
+/* Adding position:sticky and Top:0 will make our nav to remain 
+at the top even after scroll */
+top:0;
+  }
