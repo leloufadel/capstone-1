@@ -8,12 +8,12 @@
 
 nav {
   height: 80px;
-  background-color: rgb(20, 20, 20);
-  color: rgb(220, 220, 220);
+  background-color: white;
   padding: 0 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
   position: sticky;
 
   /* Adding position:sticky and Top:0 will make our nav to remain
@@ -31,6 +31,12 @@ at the top even after scroll */
   margin-right: 4rem;
 }
 
+.logo-img {
+  width: 100%;
+  height: 100%;
+  padding-left: 5rem;
+}
+
 nav li {
   list-style: none;
   margin: 0 0.5rem;
@@ -38,7 +44,8 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: rgb(220, 220, 220);
+  color: black;
+  font-weight: 600;
 }
 
 nav a:hover {
@@ -57,11 +64,12 @@ nav a::after {
 nav a:hover::after {
   width: 100%;
 }
+
 /* Responsive */
-@media (max-width:750px) {
-.nav-items{
+@media (max-width: 750px) {
+  .nav-items {
     position: fixed;
-    top:0;
+    top: 0;
     right: -105px;
     height: 100vh;
     width: 250px;
@@ -70,14 +78,15 @@ nav a:hover::after {
     background: rgb(20, 20, 20);
     padding: 2rem;
     transition: all ease-in-out 500ms;
+  }
+
+  .overview,
+  .account {
+    flex-direction: column;
+    width: auto;
+  }
+
+  .overview {
+    margin: 0;
+  }
 }
-    .overview,
-    .account {
-      flex-direction: column;
-      width: auto;
-    }
-    .overview {
-        margin: 0;
-      }
-}
-    

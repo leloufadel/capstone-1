@@ -1,9 +1,14 @@
 import React from 'react';
 import './stylesheets/navbar.css';
+import semlessLogo from '../Assets/iconsemless.gif';
+
 
 const Navbar = () => (
   <nav className="navbar">
-    <div className="logo">My Website</div>
+    <div className="logo">
+    <img className="logo-img" src={semlessLogo} alt="logo" />
+
+    </div>
     <div className="nav-items">
       <ul className="overview">
         <li><a href="/">Home</a></li>
