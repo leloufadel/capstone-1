@@ -26,3 +26,7 @@ top:0;
  .overview{
     margin-right:4rem;
  }
+nav li {
+    list-style: none;
+    margin: 0 0.5rem;
+}
