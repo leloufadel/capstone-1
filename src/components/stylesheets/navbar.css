@@ -37,3 +37,14 @@ color:rgb(220, 220, 220)
 nav a:hover {
 color:#a0ebfd;
 }
+nav a::after {
+    content: "";
+    display: block;
+    background: #a0ebfd;
+    height: 3px;
+    width: 0%;   
+    transition: all ease-in-out 300ms; 
+  }
+nav a:hover::after{
+    width: 100%;
+}
