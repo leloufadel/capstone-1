@@ -16,6 +16,8 @@ nav {
   cursor: pointer;
   position: sticky;
 
+  /* background-image: url('../../Assets/Conference.jpg'); */
+
   /* Adding position:sticky and Top:0 will make our nav to remain
 at the top even after scroll */
   top: 0;
