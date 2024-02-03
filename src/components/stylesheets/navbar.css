@@ -34,3 +34,6 @@ nav a {
 text-decoration: none;
 color:rgb(220, 220, 220)
 }
+nav a:hover {
+color:#a0ebfd;
+}
