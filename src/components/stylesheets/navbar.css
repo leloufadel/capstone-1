@@ -18,3 +18,11 @@ position: sticky;
 at the top even after scroll */
 top:0;
   }
+  .nav-items,
+  .overview,
+  .account {
+   display: flex;
+  }
+ .overview{
+    margin-right:4rem;
+ }
