@@ -1,217 +1,70 @@
-# capstone-1
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<a name="readme-top"></a>
+## Available Scripts
 
+In the project directory, you can run:
 
+### `npm start`
 
-<div align="center">
- 
-  <img src="https://as1.ftcdn.net/v2/jpg/05/06/45/92/1000_F_506459232_7RWXyXVU0ZapbSRlgPdnqdNexo0k2d8H.jpg" alt="logo" width="140"  height="auto" />
-  <br/>
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-  <h3><b> </b></h3>
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-</div>
+### `npm test`
 
-<!-- TABLE OF CONTENTS -->
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-# 📗 Table of Contents
+### `npm run build`
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-<!-- PROJECT DESCRIPTION -->
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-# 📖 Capstone Project <a name="about-project"></a>
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-My First capstone Project at Microverse with Html, CSS and javascript to Learn git, github and github Flow, To Build a conference website site and to
-Use images and backgrounds to enhance the look of the website.
+### `npm run eject`
 
-## 🛠 Built With <a name="built-with"></a>
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### 1- Html
-### 2- CSS
-### 3- Javascript
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Tech Stack <a name="tech-stack"></a>
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a>Html</a></li>
-    <li><a>Css</a></li>
-      <li><a>Javascript</a></li>
-  </ul>
-</details>
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-<!-- Features -->
+### Code Splitting
 
-### Key Features <a name="key-features"></a>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Added index.html file
-### Added styles.css file
+### Analyzing the Bundle Size
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-<!-- LIVE DEMO -->
+### Making a Progressive Web App
 
-## 🚀 Live Demo <a name="live-demo"></a>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-> [Click here to navigate]((https://leloufadel.github.io/capstone-1/)).
+### Advanced Configuration
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-
-
-> To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
-In order to run this project you need:
-
-### 1- Web Browser
-### 2- Code Editor
-### 3- Git
-
-
-
-### Setup
-
-Clone this repository to your desired folder:
-
-Run This Command:
-
-
-
-```sh
-  cd my-folder
-  git clone https://github.com/leloufadel/capstone-1
-```
-
-
-### Install
-
-Install this project with:
-
-Run This Command:
-
-```sh
-  cd my-project
-  npm install
-```
-
-
-### Usage
-
-To run the project, execute the following command:
-
-> Open Index.html using Live Server Extension.
-### Run tests
-
-> Coming Soon!
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
-> [Click here to navigate](https://leloufadel.github.io/capstone-1/).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### `npm run build` fails to minify
 
-<!-- AUTHORS -->
-
-## 👥 Authors <a name="authors"></a>
-
-
-
-👤 **Lala Aicha El Vadel**
-
-- GitHub: [leloufadel](https://github.com/leloufadel)
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- Use media queries
-- Use Grid and flexbox
-- Add  Responsiveness
-- use Animation 
-- use popup window
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-<p align="right">(<a href="">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-
-If you like this project Leave A Star.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank Microverse and my coding partners, and also give credit to Cindy Shin, the original author of the design.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-- **How to make it mobile friendly?**
-
-  - Put a viewport tag in the header
-
-- **How to design the site?**
-
-  - Draw a mockup before start to code
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!--Project OUTLINE-->
-<p> Project outline: Loom record link  <a href="https://www.loom.com/share/b2d5d3c82e3147148b1d4ee5347eb408">click here
- </p>
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-This project is [MIT](https://choosealicense.com/licenses/mit/) licensed .
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

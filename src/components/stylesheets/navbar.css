@@ -1,0 +1,92 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+nav {
+  height: 80px;
+  background-color: white;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  position: sticky;
+
+  /* Adding position:sticky and Top:0 will make our nav to remain
+at the top even after scroll */
+  top: 0;
+}
+
+.nav-items,
+.overview,
+.account {
+  display: flex;
+}
+
+.overview {
+  margin-right: 4rem;
+}
+
+.logo-img {
+  width: 100%;
+  height: 100%;
+  padding-left: 5rem;
+}
+
+nav li {
+  list-style: none;
+  margin: 0 0.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #a0ebfd;
+}
+
+nav a::after {
+  content: "";
+  display: block;
+  background: #a0ebfd;
+  height: 3px;
+  width: 0%;
+  transition: all ease-in-out 300ms;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 750px) {
+  .nav-items {
+    position: fixed;
+    top: 0;
+    right: -105px;
+    height: 100vh;
+    width: 250px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: rgb(20, 20, 20);
+    padding: 2rem;
+    transition: all ease-in-out 500ms;
+  }
+
+  .overview,
+  .account {
+    flex-direction: column;
+    width: auto;
+  }
+
+  .overview {
+    margin: 0;
+  }
+}
