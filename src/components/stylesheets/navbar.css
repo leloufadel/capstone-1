@@ -1,50 +1,59 @@
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Rubik", sans-serif;
-  }
-  nav {
-height: 80px;
-background-color: rgb(20, 20, 20);
-color:rgb(220, 220, 220);
-padding: 0 2rem;
-display: flex;
-justify-content: space-between;
-align-items: center;
-position: sticky; 
-/* Adding position:sticky and Top:0 will make our nav to remain 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+nav {
+  height: 80px;
+  background-color: rgb(20, 20, 20);
+  color: rgb(220, 220, 220);
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+
+  /* Adding position:sticky and Top:0 will make our nav to remain
 at the top even after scroll */
-top:0;
-  }
-  .nav-items,
-  .overview,
-  .account {
-   display: flex;
-  }
- .overview{
-    margin-right:4rem;
- }
+  top: 0;
+}
+
+.nav-items,
+.overview,
+.account {
+  display: flex;
+}
+
+.overview {
+  margin-right: 4rem;
+}
+
 nav li {
-    list-style: none;
-    margin: 0 0.5rem;
+  list-style: none;
+  margin: 0 0.5rem;
 }
+
 nav a {
-text-decoration: none;
-color:rgb(220, 220, 220)
+  text-decoration: none;
+  color: rgb(220, 220, 220);
 }
+
 nav a:hover {
-color:#a0ebfd;
+  color: #a0ebfd;
 }
+
 nav a::after {
-    content: "";
-    display: block;
-    background: #a0ebfd;
-    height: 3px;
-    width: 0%;   
-    transition: all ease-in-out 300ms; 
-  }
-nav a:hover::after{
-    width: 100%;
+  content: "";
+  display: block;
+  background: #a0ebfd;
+  height: 3px;
+  width: 0%;
+  transition: all ease-in-out 300ms;
+}
+
+nav a:hover::after {
+  width: 100%;
 }
