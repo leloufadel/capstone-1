@@ -57,3 +57,18 @@ nav a::after {
 nav a:hover::after {
   width: 100%;
 }
+/* Responsive */
+@media (max-width:750px) {
+/* .nav-items{
+    position: fixed;
+} */
+    .overview,
+    .account {
+      flex-direction: column;
+      width: auto;
+    }
+    .overview {
+        margin: 0;
+      }
+}
+    
