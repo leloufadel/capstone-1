@@ -1,18 +1,8 @@
 import React from 'react';
-import styled from 'styled-components';
 import NavBar from './components/Navbar';
 
-const AppContainer = styled.div`
-  max-width: 1200px;
-  margin: 0 auto;
-`;
-
-const App = () => {
-  return (
-    <AppContainer>
-      <NavBar />
-    </AppContainer>
-  );
-};
+const App = () => (
+  <NavBar />
+);
 
 export default App;
