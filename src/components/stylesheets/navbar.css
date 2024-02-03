@@ -30,3 +30,7 @@ nav li {
     list-style: none;
     margin: 0 0.5rem;
 }
+nav a {
+text-decoration: none;
+color:rgb(220, 220, 220)
+}
