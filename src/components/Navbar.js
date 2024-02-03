@@ -2,11 +2,10 @@ import React from 'react';
 import './stylesheets/navbar.css';
 import semlessLogo from '../Assets/iconsemless.gif';
 
-
 const Navbar = () => (
   <nav className="navbar">
     <div className="logo">
-    <img className="logo-img" src={semlessLogo} alt="logo" />
+      <img className="logo-img" src={semlessLogo} alt="logo" />
 
     </div>
     <div className="nav-items">
